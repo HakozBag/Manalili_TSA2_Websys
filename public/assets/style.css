@@ -1,0 +1,128 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fcfbfa;
+    color: #4a403a;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    color: #5c4033;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #eae5e0;
+    padding-bottom: 12px;
+}
+
+nav {
+    background: #ffffff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #eae5e0;
+    box-shadow: 0 4px 12px rgba(92, 64, 51, 0.04);
+    margin-bottom: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8c6d62;
+    font-weight: 600;
+    margin-right: 15px;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #5c4033;
+    text-decoration: underline;
+}
+
+ul, p {
+    background: #ffffff;
+    padding: 25px 35px;
+    border-radius: 10px;
+    border: 1px solid #eae5e0;
+    box-shadow: 0 4px 12px rgba(92, 64, 51, 0.04);
+}
+
+li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    border-bottom: 1px dashed #f0ece6;
+    padding-bottom: 10px;
+    color: #5c4033;
+}
+
+li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.form-container {
+    background: #ffffff;
+    padding: 30px 35px;
+    border-radius: 10px;
+    border: 1px solid #eae5e0;
+    box-shadow: 0 4px 12px rgba(92, 64, 51, 0.04);
+    max-width: 400px;
+    margin: 60px auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5c4033;
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eae5e0;
+    border-radius: 6px;
+    background-color: #fcfbfa;
+    box-sizing: border-box;
+    color: #4a403a;
+    font-family: inherit;
+}
+
+.form-group input:focus {
+    border-color: #8c6d62;
+    outline: none;
+}
+
+button, .btn {
+    background-color: #5c4033;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    width: 100%;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color 0.2s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #4a3328;
+}
+
+.alert-error {
+    background-color: #fdf2f0;
+    color: #8a3b32;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #f5c6cb;
+    font-size: 14px;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 15px;
+}
